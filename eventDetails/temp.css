@@ -1,0 +1,33 @@
+.header {
+    padding: 16px;
+    width: 20%;
+    background-color: #D3D3D3;
+    float: left;
+    border-right: thin solid #B8B2B2;
+}
+
+.first {
+    margin-left: 10%;
+}
+
+div.image {
+    content: url(assets/breadcrumb-arrow.png);
+    width: 10px;
+    height: 10px;
+    float: right;
+}
+
+.border-none{
+    border: none;
+}
+​
+.mt20{
+    margin-top: 10%;
+}
+
+.content{
+    width: 20%;
+    padding: 48px;
+    position: relative;
+
+}
