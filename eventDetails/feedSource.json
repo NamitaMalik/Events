@@ -1,14 +1,14 @@
 [
   {
     "title": "Cricket",
-    "url": "/myBlogs/Events/eventDetails/cricket.json"
+    "url": "./eventDetails/cricket.json"
   },
   {
     "title": "Football",
-    "url": "/myBlogs/Events/eventDetails/football.json"
+    "url": "./eventDetails/football.json"
   },
   {
     "title": "Tennis",
-    "url": "/myBlogs/Events/eventDetails/tennis.json"
+    "url": "./eventDetails/tennis.json"
   }
 ]

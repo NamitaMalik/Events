@@ -1,26 +1,32 @@
-.parent{
-    height: 400px;
-    margin-top:10%;
-    border: thick solid #000000;
+ul.listStyleNone {
+  list-style: none;
+  padding-left: 0;
 }
 
-.header{
-    width: 18%;
-    background-color: #D3D3D3;
-    float: left;
-    border-right: thin solid #B8B2B2;
+ul.feeds {
+  padding: 10% 25%;
 }
 
-
-.arrow{
-    float: right;
-    font-size: x-large;
+ul.feeds > li {
+  float: left;
+  width: 200px;
 }
 
-li{
-
+ul.feeds > li > div.heading {
+  background: #eee;
+  height: 40px;
+  line-height: 40px;
+  border-right: thin solid #b8b2b2;
+  padding-left: 10px;
 }
 
-ul{
-    list-style-type: none;
+ul.news > li {
+  border: thin solid black;
+  height: 160px;
+}
+
+.arrow {
+  float: right;
+  margin-right: 14px;
+  font-size: 20px
 }

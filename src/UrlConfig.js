@@ -5,10 +5,7 @@
     var eventApp = ng.module("eventApp");
     eventApp.factory("UrlConfig", function () {
         return {
-            news: "/myBlogs/Events/eventDetails/football.json",
-            pastEvents: "/myBlogs/Events/eventDetails/cricket.json",
-            upcomingEvents: "/myBlogs/Events/eventDetails/tennis.json",
-            feedSource: "/myBlogs/Events/eventDetails/feedSource.json"
+            feedSource: "./eventDetails/feedSource.json"
         }
     });
 })(angular);
