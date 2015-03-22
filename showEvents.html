@@ -6,19 +6,21 @@
 </head>
 <link href="main.css" rel="stylesheet">
 <body ng-controller="EventCtrl">
-<div>
-    <div ng-repeat="feedSource in feedSources">
-        <div class="mt20">
-            <div class="header" ng-class="{'first':$first,'border-none':$last}">
-                <span>{{feedSource.title}}</span>
+<div class="parent">
+            <ul class="header">
+                <li ng-repeat="feedSource in feedSources" ng-class="{'first':$first,'border-none':$last}">
+                    <span>{{feedSource.title}}</span>
+                    <span class="arrow"> > </span>
 
-                <div class="image"></div>
-            </div>
-            <div ng-repeat="n in news[$index]" class="content">
+                </li>
+            </ul>
+       <!-- <div class="content" ng-repeat="n in news[$index]">
+            <div ng-class="{'first':$first}">
                 {{n.description}}
             </div>
-        </div>
+        </div>-->
     </div>
+
 </div>
 <script src="lib/angular.min.js"></script>
 <script src="src/result.js"></script>

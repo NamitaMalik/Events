@@ -1,0 +1,26 @@
+.parent{
+    height: 400px;
+    margin-top:10%;
+    border: thick solid #000000;
+}
+
+.header{
+    width: 18%;
+    background-color: #D3D3D3;
+    float: left;
+    border-right: thin solid #B8B2B2;
+}
+
+
+.arrow{
+    float: right;
+    font-size: x-large;
+}
+
+li{
+
+}
+
+ul{
+    list-style-type: none;
+}
